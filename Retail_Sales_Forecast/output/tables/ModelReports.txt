@@ -1,0 +1,8 @@
+=== MODEL REPORTS (TRAINING SAMPLE) ===
+
+# A tibble: 3 × 11
+  .model       sigma2 log_lik   AIC  AICc   BIC ar_roots ma_roots   MSE  AMSE     MAE
+  <chr>         <dbl>   <dbl> <dbl> <dbl> <dbl> <list>   <list>   <dbl> <dbl>   <dbl>
+1 SARIMA   154.         -445.  900.  900.  913. <cpl>    <cpl>      NA    NA  NA     
+2 DR_COVID 104.         -420.  854.  855.  873. <cpl>    <cpl>      NA    NA  NA     
+3 ETS        0.000890   -615. 1265. 1271. 1313. <NULL>   <NULL>    165.  254.  0.0185
